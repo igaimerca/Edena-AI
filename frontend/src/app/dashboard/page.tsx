@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Menu, Bell, UserCircle, Mic, Dumbbell, User, Settings, ChevronDown, Clock } from "lucide-react";
-import LogoDark from "../../assets/logo-dark.png";
+import Logo from "../../assets/images/logo.png";
 import useAuthStore from "../../store/auth";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase/firebaseConfig";
@@ -89,7 +89,7 @@ const Dashboard = () => {
           } md:translate-x-0`}
       >
         <div className="flex items-center justify-center h-16 border-b border-gray-700">
-          <img src={LogoDark.src} alt="Edena AI Logo" className="h-10 animate-pulse" />
+          <img src={Logo.src} alt="Edena AI Logo" className="h-10 animate-pulse" />
         </div>
         <nav className="mt-4 space-y-2">
           <Link
@@ -211,7 +211,7 @@ const Dashboard = () => {
                 </p>
                 <button className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-green-400 to-green-500 text-white rounded-full font-semibold shadow-md hover:from-green-500 hover:to-green-600 transition transform hover:scale-105">
                   <Dumbbell className="w-4 h-4" />
-                  Go to Gym
+                  Go to Interview Gym
                 </button>
               </div>
               <div className="bg-white rounded-2xl shadow-xl p-6">
@@ -221,7 +221,7 @@ const Dashboard = () => {
                 </p>
                 <button className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-indigo-400 to-indigo-500 text-white rounded-full font-semibold shadow-md hover:from-indigo-500 hover:to-indigo-600 transition transform hover:scale-105">
                   <User className="w-4 h-4" />
-                  Edit Profile
+                  Complete Profile
                 </button>
               </div>
             </section>
@@ -229,7 +229,7 @@ const Dashboard = () => {
         </main>
 
         <footer className="bg-white text-gray-600 text-center py-3 shadow-inner">
-          © 2025 Edena AI. All rights reserved.
+          © {new Date().getFullYear()} Edena AI. All rights reserved.
         </footer>
       </div>
     </div>
