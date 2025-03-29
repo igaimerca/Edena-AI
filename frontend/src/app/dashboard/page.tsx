@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Menu, Bell, UserCircle, Mic, Dumbbell, User, Settings, ChevronDown, Clock } from "lucide-react";
-import LogoDark from "../../assets/images/logo.png";
+import LogoDark from "../../assets/logo-dark.png";
 import useAuthStore from "../../store/auth";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase/firebaseConfig";

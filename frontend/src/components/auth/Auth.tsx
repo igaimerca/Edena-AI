@@ -1,4 +1,4 @@
-// src/components/Auth.tsx
+"use client";
 import React from 'react';
 import { useRouter } from 'next/navigation';
 import { auth } from '../../firebase/firebaseConfig';
