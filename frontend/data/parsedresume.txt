@@ -1,0 +1,117 @@
+"```json
+{
+  "name": "Souvenir Turinumugisha",
+  "email": "souvenirturinumugisha@gmail.com",
+  "phoneNumber": "773-681-4320",
+  "summary": "A dedicated and skilled software developer with experience in designing user-centric interfaces, automating CI/CD pipelines, optimizing database architecture, and contributing to full-stack development and system architecture revamps. Adept at leading projects, mentoring students, and organizing fundraising campaigns.",
+  "skills": [
+    "Python",
+    "Javascript",
+    "Typescript",
+    "C/C++",
+    "Java",
+    "Matlab",
+    "PostgreSQL",
+    "SQL",
+    "MongoDb",
+    "React",
+    "Angular",
+    "TailwindCSS",
+    "HTML/CSS",
+    "Cypress",
+    "SpringBoot",
+    "Node JS",
+    "Express",
+    "Git",
+    "Github",
+    "Gitlab",
+    "Asana",
+    "Jira",
+    "Trello",
+    "VS Code"
+  ],
+  "workExperiences": [
+    {
+      "title": "Software Developer",
+      "company": "Vipi Technologies Group",
+      "location": "Kigali, Rwanda",
+      "duration": "February 2024 - October 2024",
+      "achievements": [
+        "Pioneered the design and implementation of Vipi Transport UI.",
+        "Accelerated deployment efficiency by engineering and automating CI/CD pipelines with Jenkins and AWS.",
+        "Optimized PostgreSQL database architecture."
+      ]
+    },
+    {
+      "title": "Full Stack Software Developer Intern",
+      "company": "Pivot Access",
+      "location": "Kigali, Rwanda",
+      "duration": "October 2023 - December 2023",
+      "achievements": [
+        "Innovated and delivered the Pivot UI reusable components library.",
+        "Delivered a full-stack Tekana v2 module for the Rwanda National Police.",
+        "Contributed to the Tekana v2 system architecture revamp."
+      ]
+    },
+    {
+      "title": "Frontend Developer Intern",
+      "company": "Clinical Trial Media (CTM)",
+      "location": "Hauppauge, New York",
+      "duration": "September 2022 - June 2023",
+      "achievements": [
+        "Delivered 50% of the SM-Screener project's interactive UI.",
+        "Developed unit tests for CTM components library.",
+        "Reviewed and optimized peer code contributions."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Northwestern University",
+      "location": "Evanston, IL",
+      "degree": "Bachelor of Science in Computer Science",
+      "graduationDate": "Expected Graduation: June 2028"
+    },
+    {
+      "institution": "Rwanda Coding Academy",
+      "location": "Nyabihu, Rwanda",
+      "degree": "High School Diploma in Software Programming and Embedded Systems",
+      "graduationDate": "February 2020 - August 2023"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bookinga",
+      "duration": "June 2021 - September 2022",
+      "details": [
+        "Delegated software requirements gathering.",
+        "Led the design and development of Bookinga project MVP.",
+        "Implemented agile methodologies across the project team."
+      ]
+    }
+  ],
+  "volunteerExperience": [
+    {
+      "role": "Technical Curriculum Developer & Mentor",
+      "organization": "Brainiacs ALU",
+      "location": "Kigali, Rwanda",
+      "duration": "May 2024 - August 2024",
+      "contributions": [
+        "Co-designed a 4-month software development bootcamp curriculum.",
+        "Supervised and mentored 50 students in Foundations of Programming.",
+        "Facilitated ideation and prototyping sessions."
+      ]
+    },
+    {
+      "role": "Co-founder & Representative",
+      "organization": "Helping Hand Foundation",
+      "location": "Nyabihu, Rwanda",
+      "duration": "January 2022 - Present",
+      "contributions": [
+        "Organized fundraising campaigns for underprivileged families.",
+        "Secured funding for the education and welfare of street children."
+      ]
+    }
+  ]
+}
+```"
