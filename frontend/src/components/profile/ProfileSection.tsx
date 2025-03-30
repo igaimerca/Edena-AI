@@ -1,16 +1,23 @@
-import { ReactNode } from 'react'
+import { Plus, Pencil } from 'lucide-react'
 
-export default function ProfileSection({
-  title,
-  children,
-}: {
+interface ProfileSectionProps {
   title: string
-  children: ReactNode
-}) {
+  hasContent?: boolean
+  children: React.ReactNode
+}
+
+export default function ProfileSection({ title, hasContent = false, children }: ProfileSectionProps) {
   return (
-    <div className="mb-10">
-      <h3 className="text-2xl font-bold mb-3">{title}</h3>
-      {children}
-    </div>
+    <section className="border-t border-white/10 pt-6">
+      <div className="flex items-center justify-between mb-3">
+        <h3 className="text-lg font-semibold">{title}</h3>
+        <button className="text-white/50 hover:text-white transition-colors">
+          {hasContent ? <Pencil className="w-4 h-4" /> : <Plus className="w-4 h-4" />}
+        </button>
+      </div>
+      <div>
+        {children}
+      </div>
+    </section>
   )
 }
