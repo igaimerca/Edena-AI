@@ -44,16 +44,16 @@ export default function UserProfilePage() {
   }
 
   return (
-    <div className="min-h-screen pb-10 pt-2 px-4 sm:px-10 bg-black text-white">
+    <div className="min-h-screen pb-10  text-white">
 
       {/* Banner + Profile Card Section */}
-      <div className="relative w-full h-48 bg-gradient-to-br from-purple-900 via-[#5D2CA8] to-black rounded-xl mb-20 overflow-hidden">
+      <div className="relative h-48 rounded-t-lg bg-gradient-to-br from-purple-900 via-[#5D2CA8] to-black mb-20 overflow-hidden">
         <button className="absolute top-4 right-4 bg-white/10 hover:bg-white/20 text-white text-sm px-3 py-1 rounded shadow">
           Edit banner
         </button>
       </div>
 
-      <div className="relative -mt-[10em] w-full bg-[#1a1a1a] border border-white/10 rounded-xl px-6 py-6 shadow-xl max-w-[80%] mx-auto">
+      <div className="relative -mt-[10em] w-5xl bg-[#1a1a1a] border border-white/10 rounded-xl px-6 py-6 shadow-xl max-w-[80%] mx-auto">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
           <div className="flex items-center gap-4">
             <div className="w-16 h-16 rounded-full bg-[#5D2CA8] flex items-center justify-center text-white font-bold text-xl">
@@ -85,7 +85,7 @@ export default function UserProfilePage() {
           </div>
         </div>
       </div>
-      <div className="max-w-[80%] mx-auto">
+      <div className="max-w-[80%] w-5xl mx-auto">
         <div className="mt-12 space-y-10">
           <ProfileSection title="Summary" hasContent={!!profile.summary}>
             {profile.summary ? (
@@ -216,7 +216,7 @@ export default function UserProfilePage() {
               )}
             </div>
           </ProfileSection>
-          
+
         </div>
       </div>
     </div>

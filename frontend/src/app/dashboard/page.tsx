@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function DashboardPage() {
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="max-w-5xl mx-auto p-4">
       {/* Mock Interview */}
       <section className="bg-gradient-to-br from-[#1e1e1e] to-[#121212] rounded-2xl border border-white/10 shadow-lg p-6">
         <h2 className="text-2xl font-extrabold text-white mb-3">Mock Interview</h2>
