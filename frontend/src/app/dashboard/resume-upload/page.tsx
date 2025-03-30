@@ -24,7 +24,7 @@ export default function ResumeUploadDropzone() {
       formData.append('resume', file)
 
       try {
-        const res = await fetch('http://localhost:3001/api/resume/upload', {
+        const res = await fetch('http://localhost:3001/api/profile/upload-resume', {
           method: 'POST',
           body: formData,
         })
