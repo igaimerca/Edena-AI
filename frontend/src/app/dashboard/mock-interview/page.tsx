@@ -1,5 +1,7 @@
-export default function MockInterviewPage() {
-    return (
-        <div className="text-white text-xl font-bold p-4">Mock Interview Page</div>
-    )
+'use client'
+
+import InterviewLayout from "@/components/mock-interview/interviewLayout"
+
+export default function LiveInterviewPage() {
+  return <InterviewLayout />
 }
